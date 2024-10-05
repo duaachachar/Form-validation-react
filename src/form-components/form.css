@@ -1,8 +1,8 @@
 .form-signin {
     max-width: 630px;
     padding: 2rem;
-    border:2px solid red;
-    background-color: rgb(253, 203, 249);
+
+    background-color:white;
   }
   
   .form-signin .form-floating:focus-within {
@@ -20,3 +20,23 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
+
+
+
+  /* if (userDetails.firstName === "" && userDetails.lastName === "" && userDetails.email === "" && userDetails.password === "" && userDetails.confirmPassword === "") {
+    setUserErr({ firstNameErr:true, lastNameErr:true, emailErr:true, passwordErr:true,  })
+}if () { */
+
+/*  if (userDetails.firstName === "" ){
+        setUserErr({...userErr, firstNameErr:true})
+    } 
+    else if  (userDetails.email === "" ){
+        setUserErr({...userErr, emailErr:true})
+    }
+    else if (userDetails.password === "" ){
+        setUserErr({...userErr, passwordErr:true})
+    }
+    else if (userDetails.confirmPassword === "" ){
+        setUserErr({...userErr, confirmPasswordErr:true})
+    }
+} */
